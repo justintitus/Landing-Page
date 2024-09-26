@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 100vh;
+    background: url('https://img.freepik.com/free-photo/top-view-workspace-with-copy-space-succulent_23-2148430827.jpg?t=st=1727356625~exp=1727360225~hmac=08ede47e805f9d780d40f029004deab96515d7062880482cd01ae78f40f9862f&w=1060') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.nav ul li {
+    margin: 0 1rem;
+}
+
+.nav ul li a {
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: #ff6f00;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e65a00;
+}
+
+
+.services {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.service-card {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card i {
+    font-size: 3rem;
+    color: #ff6f00;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    font-size: 1rem;
+}
+
+
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer h2 {
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-links a {
+    background: #ff6f00;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    background: #e65a00;
+}
